@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Push Attachment</title>
+</head>
+<body>
+<div id="container">
+    <h1>Hello!</h1>
+    <p>This is example of pushing attachment by JavaScript</p>
+    <a href="#" id="link">Click me to download this</a>
+</div>
+<script type="module">
+    import pushAttachment from "./push-attachment.js"
+
+    document.getElementById("link").addEventListener("click", () =>
+        pushAttachment(document.getElementById("container").innerHTML, {attachmentName: "hello.doc", contentType: "text/html;charset=utf-8"})
+    )
+</script>
+<script type="application/javascript">
+</script>
+</body>
+</html>

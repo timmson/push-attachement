@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "target": "ES6"
+  },
+  "files": [
+    "./src/push-attachment.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

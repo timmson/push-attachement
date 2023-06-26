@@ -1,0 +1,39 @@
+{
+  "name": "push-attachment",
+  "version": "1.0.0",
+  "description": "Tiny library for pushing attachments to browser",
+  "main": "./dist/push-attachment.js",
+  "scripts": {
+    "lint": "npx eslint ./src/*.ts --fix",
+    "watch": "tsc -p tsconfig.json --watch",
+    "build": "tsc -p tsconfig.json",
+    "test": "npx jest",
+    "coverage": "npx jest --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmson/push-attachment.git"
+  },
+  "keywords": [
+    "production",
+    "calendar"
+  ],
+  "author": "Krotov Artem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timmson/push-attachment/issues"
+  },
+  "homepage": "https://github.com/timmson/push-attachment#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/typescript-estree": "^5.59.7",
+    "babel-plugin-replace-ts-export-assignment": "^0.0.2",
+    "eslint": "^8.41.0",
+    "eslint-plugin-react": "7.32.2",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  }
+}

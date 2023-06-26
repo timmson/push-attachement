@@ -1,0 +1,21 @@
+# Idea
+.idea/
+
+# Node modules
+node_modules/
+
+# Sources & Build
+src/
+tsconfig.json
+
+# Test & Coverage
+coverage/
+test/
+.eslintrc.json
+babel.config.json
+jest.config.json
+
+# Git
+.git/
+.gitignore
+.github/
