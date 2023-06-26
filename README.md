@@ -5,7 +5,7 @@ Tiny library for pushing attachments to browser
 # How to use
 
 ```bash
-npm i push-attachement
+npm i push-attachment
 ```
 
 ```javascript
